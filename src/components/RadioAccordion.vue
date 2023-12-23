@@ -53,7 +53,7 @@ export default defineComponent({
           </div>
           <div class="transition-all duration-500 ease-in-out"
             :class="{ 'max-h-0': !isActive, 'max-h-[2000px]': isActive }">
-            <div class="mt-5 mb-4 text-left">
+            <div class="mt-5 pb-4 text-left">
               <hr />
               <div v-for="(subOption, index) in option.customSubOptions" :key="index" class="mt-3">
                 <a href="#" class="group no-underline text-[#505050] hover:text-black">
